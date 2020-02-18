@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "359362701734",
+    "firebase_url": "https://hackfirebase-b8248.firebaseio.com",
+    "project_id": "hackfirebase-b8248",
+    "storage_bucket": "hackfirebase-b8248.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359362701734:android:ceddf349379d0eecfd8767",
+        "android_client_info": {
+          "package_name": "com.example.app_meetup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "359362701734-k6b97nktsalttc2dt97rc7ht2sn5s8ab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCG1Qk82FCz2o5vtl0whOGYsl5vaCJ06No"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "359362701734-k6b97nktsalttc2dt97rc7ht2sn5s8ab.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

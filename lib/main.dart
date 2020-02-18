@@ -1,4 +1,5 @@
 
+import 'package:app_meetup/pages/mainPage.dart';
 import 'package:app_meetup/pages/welcomePage.dart';
 import 'package:flutter/material.dart';
 
@@ -14,9 +15,13 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.red,
+        primarySwatch: Colors.teal,
       ),
       home: WelcomePage(),
+      routes: <String, WidgetBuilder>{
+        '/paginaPrincipal': (BuildContext context) => new MainPage(),
+        '/login':(BuildContext context) => new WelcomePage(),
+      },
     );
   }
 }
