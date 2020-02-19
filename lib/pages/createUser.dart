@@ -98,15 +98,6 @@ class Builder extends StatelessWidget {
                   ),
                 ),
               ),
-
-              FlatButton(
-                child: Text(
-                  'Teste'
-                ),
-                onPressed: () => {
-                  print('$_email, $_senha'),
-                },
-              ),
             ],
           ),
         ),

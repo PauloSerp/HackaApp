@@ -12,4 +12,9 @@ class Hero{
     bio = jsonData['bio'];
     imagemUrl = jsonData['imageurl'];
   }
+
+
+
+
+
 }

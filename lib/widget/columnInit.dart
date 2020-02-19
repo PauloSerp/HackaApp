@@ -1,5 +1,6 @@
 import 'package:app_meetup/pages/createUser.dart';
 import 'package:app_meetup/pages/mainPage.dart';
+import 'package:finance_quote/finance_quote.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -137,8 +138,7 @@ class _WidgetAppState extends State<WidgetApp> {
                   ],
                 ),
                 onPressed: ()=>{
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=> CreateUser())),
-                  Navigator.pop(context),
+                      Navigator.push(context, MaterialPageRoute(builder: (context)=>CreateUser()))
                 },
               ),
         ],
@@ -164,5 +164,4 @@ class _WidgetAppState extends State<WidgetApp> {
     }
 
   }
-
 }

@@ -14,7 +14,7 @@ description: A new Flutter application.
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.2.0 <3.0.0"
 
 dependencies:
   flutter:
@@ -26,6 +26,7 @@ dependencies:
   firebase_auth: ^0.14.0+5
   flutter_circular_chart: ^0.1.0
   dio: ^3.0.8
+  finance_quote: ^0.1.2
 
 dev_dependencies:
   flutter_test:
@@ -58,6 +59,7 @@ flutter:
       - assets/percentual.png
       - assets/iconCarteira.png
       - assets/iconCarteiraDesabilitada.png
+      - assets/perfil.png
 
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg

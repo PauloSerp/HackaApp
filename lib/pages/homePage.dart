@@ -29,7 +29,6 @@ class homePageWidget extends StatelessWidget {
         Container(
           padding: EdgeInsets.only(top: 20),
           decoration: BoxDecoration(
-            color: Colors.black38,
             border: Border(
               bottom: BorderSide(color: Colors.white30),
             ),
@@ -37,9 +36,18 @@ class homePageWidget extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              CircleAvatar(
-                maxRadius: 80,
-                backgroundColor: Colors.red,
+              Container(
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(100),
+                ),
+                clipBehavior: Clip.antiAlias,
+                height: 200,
+                width: 200,
+                child: Row(
+                  children: <Widget>[
+
+                  ],
+                ),
               ),
               Text(
                 'Olá \n $name',
@@ -51,6 +59,8 @@ class homePageWidget extends StatelessWidget {
             ],
           ),
         ),
+
+        Divider(),
         Container(
           padding: EdgeInsets.only(left: 20, right: 20, top: 20),
           child: Column(

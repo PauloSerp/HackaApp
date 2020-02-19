@@ -1,3 +1,4 @@
+import 'package:finance_quote/finance_quote.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_circular_chart/flutter_circular_chart.dart';
@@ -24,10 +25,10 @@ class _builderCarteira extends StatelessWidget {
   List<CircularStackEntry> data = <CircularStackEntry>[
     new CircularStackEntry(
       <CircularSegmentEntry>[
-        new CircularSegmentEntry(311.0, Colors.red[200], rankKey: 'CDB'),
-        new CircularSegmentEntry(333.0, Colors.green[200], rankKey: 'CDI'),
-        new CircularSegmentEntry(122.0, Colors.blue[200], rankKey: 'SGV'),
-        new CircularSegmentEntry(123.0, Colors.yellow[200], rankKey: 'FUNDOS IMOBILIÁRIOS'),
+        new CircularSegmentEntry(311.0, Colors.red[200], rankKey: 'ITUB4'),
+        new CircularSegmentEntry(333.0, Colors.green[200], rankKey: 'PETR4'),
+        new CircularSegmentEntry(122.0, Colors.blue[200], rankKey: 'KLBN4'),
+        new CircularSegmentEntry(123.0, Colors.yellow[200], rankKey: 'MGLU3'),
       ],
       rankKey: 'Quarterly Profits',
     ),
@@ -40,28 +41,6 @@ class _builderCarteira extends StatelessWidget {
       Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
-          Row(
-            mainAxisAlignment: MainAxisAlignment.end,
-            crossAxisAlignment: CrossAxisAlignment.end,
-            children: <Widget>[
-              Container(
-                padding: EdgeInsets.only(right: 20),
-                child: Row(
-                  children: <Widget>[
-                    Image.asset('assets/iconMedalha.png'),
-                    SizedBox(
-                      width: 10,
-                    ),
-                    Text('1230'),
-                  ],
-                ),
-              ),
-            ],
-          ),
-
-          Divider(
-            height: 20,
-          ),
 
           Column(
             children: <Widget>[
@@ -77,7 +56,7 @@ class _builderCarteira extends StatelessWidget {
                     ),
                   ),
 
-                  Text('CDB'),
+                  Text('ITUB4'),
                 ],
               ),
 
@@ -94,7 +73,7 @@ class _builderCarteira extends StatelessWidget {
                     ),
                   ),
 
-                  Text('CDI'),
+                  Text('PETR4'),
                 ],
               ),
 
@@ -112,7 +91,7 @@ class _builderCarteira extends StatelessWidget {
                     ),
                   ),
 
-                  Text('SGV'),
+                  Text('KLBN4'),
                 ],
               ),
 
@@ -130,7 +109,7 @@ class _builderCarteira extends StatelessWidget {
                     ),
                   ),
 
-                  Text('FUNDOS IMOBILIÁRIOS'),
+                  Text('MGLU3'),
                 ],
               ),
 
@@ -156,5 +135,10 @@ class _builderCarteira extends StatelessWidget {
 
 
   }
+
+
+
+
+
 }
 

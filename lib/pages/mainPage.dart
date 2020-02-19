@@ -75,7 +75,25 @@ class _MainPageState extends State<MainPage> {
       body: _TabPages[_currentIndex],
       bottomNavigationBar: bottonNavBar,
       appBar: AppBar(
+        actions: <Widget>[
+          Row(
+            children: <Widget>[
 
+              Container(
+                padding: EdgeInsets.only(right: 20),
+                child: Row(
+                  children: <Widget>[
+                    Image.asset('assets/iconMedalha.png'),
+                    SizedBox(
+                      width: 10,
+                    ),
+                    Text('1230'),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ],
       ),
     );
 
